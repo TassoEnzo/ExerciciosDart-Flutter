@@ -24,20 +24,16 @@ class MyHomePage extends StatelessWidget {
         title: const Text('My Home Page'),
         centerTitle: true,
         backgroundColor: Colors.white,
-        elevation: 0, // remove sombra da AppBar
+        elevation: 0,
       ),
       body: Column(
         children: [
-          // Linha azul abaixo da AppBar
           Container(
             height: 2,
             color: const Color.fromARGB(255, 0, 95, 173),
           ),
-
-          // Espaço entre a linha e o conteúdo
           const SizedBox(height: 40),
 
-          // Conteúdo centralizado no topo
           Center(
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -57,9 +53,7 @@ class MyHomePage extends StatelessWidget {
                     foregroundColor: Colors.white,
                     padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                   ),
-                  onPressed: () {
-                    // ação do botão
-                  },
+                  onPressed: () {},
                   child: const Text('A button'),
                 ),
               ],
@@ -70,3 +64,4 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
+

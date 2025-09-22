@@ -17,7 +17,6 @@ void main(){
   cadastrarFuncionario(nome!, cargo);
 }
 =======
-import 'dart:io';
 
 cadastrarFuncionario(String nome, String? cargo) {
   print("Ola! $nome, cargo: $cargo");
